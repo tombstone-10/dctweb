@@ -464,7 +464,7 @@ i{
 
 
 .page4{
-  background-image: url(img/bgFac4.jpg);
+  background-image: url(bgFac4.jpg);
   background-color: rgba(0,0,0,0.6);
   background-blend-mode: multiply;
   height: 100vh;
@@ -572,7 +572,7 @@ i{
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
-  background-image: url(img/bgnews.jpg);
+  background-image: url(bgnews.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgba(0,0,0,0.35);
@@ -855,28 +855,28 @@ i{
 
 
 .slide:first-child {
-  background: url('img/1.jpeg') no-repeat
+  background: url('1.jpeg') no-repeat
     center top/cover;
 }
 .slide:nth-child(2) {
-  background: url('img/2.jpg') no-repeat
+  background: url('2.jpg') no-repeat
     center top/cover;
     
 }
 .slide:nth-child(3) {
-  background: url('img/3.jpeg') no-repeat
+  background: url('3.jpeg') no-repeat
     center top/cover;
 }
 .slide:nth-child(4) {
-  background: url('img/4.jpg') no-repeat
+  background: url('4.jpg') no-repeat
     center top/cover;
 }
 .slide:nth-child(5) {
-  background: url('img/5.jpg') no-repeat
+  background: url('5.jpg') no-repeat
     center top/cover;
 } 
 .slide:nth-child(6) {
-    background: url('img/6.jpg') no-repeat
+    background: url('6.jpg') no-repeat
       center top/cover;
   } 
 
