@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  
+  transition: all ease 0.5s;
+}
+body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(img/bgFac4.jpg);
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+}
+::selection{
+  background: #2d30ff;
+  color: #fff;
+}
+.container{
+  max-width: 950px;
+  width: 100%;
+  padding: 40px 50px 40px 40px;
+  background: #fff;
+  margin: 0 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.content .list{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-right: 50px;
+  position: relative;
+}
+.content .list label{
+  height: 60px;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 60px;
+  cursor: pointer;
+  padding-left: 25px;
+  transition: all 0.5s ease;
+  color: #333;
+  z-index: 12;
+}
+
+#profile:checked ~ .list label.profile,
+#education:checked ~ .list label.education,
+#publications:checked ~ .list label.publications,
+#interest:checked ~ .list label.interest
+{
+  color: #fff;
+}
+.content .list label:hover{
+  color: #1f34f3;
+}
+.content .slider{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 60px;
+  width: 100%;
+  border-radius: 12px;
+  background: #3b0ef3;
+  transition: all 0.4s ease;
+}
+#profile:checked ~ .list .slider{
+  top: 0;
+}
+#education:checked ~ .list .slider{
+  top: 60px;
+}
+#publications:checked ~ .list .slider{
+  top: 120px;
+}
+#interest:checked ~ .list .slider{
+  top: 180px;
+}
+
+.content .text-content{
+  width: 80%;
+  height: 100%;
+}
+.text-content .memdata{
+    margin:30px;
+}
+.text-content .memdata h2{
+    padding : 10px;
+}
+
+.text-content .memdata h3{
+    padding : 0px 10px 10px 10px
+}
+.text-content .memdata h4{
+    padding : 10px;
+    color:royalblue;
+}
+.text-content .memdata p{
+    padding : 0px 0px 10px 10px;
+}
+
+.text-content .memdata img{
+    float: right;
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+}
+.content .text{
+  display: none;
+}
+.content .text .title{
+  font-size: 25px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.content .text p{
+  text-align: justify;
+}
+.content .text-content .profile{
+  display: block;
+}
+#profile:checked ~ .text-content .profile,
+#education:checked ~ .text-content .education,
+#publications:checked ~ .text-content .publications,
+#interest:checked ~ .text-content .interest
+{
+    
+  display: block;
+}
+#education:checked ~ .text-content .profile,
+#publications:checked ~ .text-content .profile,
+#interest:checked ~ .text-content .profile
+{
+    
+  display: none;
+}
+.content input{
+  display: none;
+}
