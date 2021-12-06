@@ -95,6 +95,11 @@ section{
     display: none;
 }
 
+#ham-menu {
+      display:none;
+    }
+    
+
 .cta button{
     padding: 9px 20px;
     background-color: rgb(14, 163, 212);
@@ -941,7 +946,13 @@ i{
     .fa fa-bars{
         color: khaki;
     }
-
+	
+    #ham-menu {
+      color: white;
+      display: block;
+      margin-bottom: 60px;
+    }
+    	
     .about-container{
       display: grid;
       grid-template-columns: 1fr;
