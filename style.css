@@ -331,9 +331,7 @@ i{
   margin-left: 150px;
   margin-right: auto;
   margin-top: 90px;
-  padding-bottom:25px;
-  
-}
+ }
 
 .about-info .box {
  background-color: white;
@@ -342,6 +340,7 @@ i{
   width: 56vh;
   border-radius: 10px;  
   padding: 0px 10px;
+  padding-bottom:30px;
   
 }
 
