@@ -266,7 +266,7 @@ section{
   margin-right: 70px;
   padding-left: 150px;
   padding-right: 150px;
-  margin-top: 90px;
+  margin-top: 80px;
   position: relative;
 }
 
@@ -330,7 +330,8 @@ i{
   color: black;
   margin-left: 150px;
   margin-right: auto;
-  margin-top: 110px;
+  margin-top: 90px;
+  padding-bottom:10px;
   
 }
 
