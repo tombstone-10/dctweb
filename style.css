@@ -79,7 +79,7 @@ section{
 
 .nav-links li{
     display: inline-block;
-    padding: 5px 12px;
+    padding: 5px 10px;
 }
 
 .nav-links li a{
@@ -101,7 +101,7 @@ section{
     
 
 .cta button{
-    padding: 9px 20px;
+    padding: 9px 18px;
     background-color: rgb(14, 163, 212);
     border: none;
     border-radius: 50px;
@@ -144,6 +144,7 @@ section{
 
 .fa-user-circle{
   padding: 10px;
+  margin-right:20px;
 }
 
 .fa-user-circle:hover{
