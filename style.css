@@ -40,7 +40,7 @@ header{
     color: white;
     justify-content: space-between;
     align-items: center;
-    padding: 3px 4.5%;
+    padding: 4px 1px;
     width: 100%;
     position: fixed;
     z-index: 8;
@@ -144,7 +144,7 @@ section{
 
 .fa-user-circle{
   padding: 10px;
-  margin-right:20px;
+ 
 }
 
 .fa-user-circle:hover{
